@@ -1,6 +1,4 @@
-![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/landing-page.png)
-
-meteor-application-template-react is a sample Meteor 2.7 application that illustrates: 
+(Toaster Lovin) is a sample Meteor 2.7 application that illustrates: 
 
   * A standard directory layout using 'imports/' as recommended in the [Meteor Guide](https://guide.meteor.com/structure.html)
   * [Bootstrap 5 React](https://react-bootstrap.github.io/) for user interface.
@@ -11,15 +9,15 @@ meteor-application-template-react is a sample Meteor 2.7 application that illust
   * Alerts regarding success or failure of DB updates using [Sweet Alert](https://sweetalert.js.org/).
   * Quality assurance using [ESLint](http://eslint.org) with packages to partially enforce the [Meteor Coding Standards](https://guide.meteor.com/code-style.html) and the [AirBnB Javascript Style Guide](https://github.com/airbnb/javascript).
 
-The goal of this template is to help you get quickly started doing Meteor development by providing a reasonable directory structure for development and deployment, a set of common extensions to the core framework, and boilerplate code to implement basic page display, navigation, forms, roles, and collection manipulation.
+The goal of this application is to create a way for students to learn and share recipes that:
 
-To keep this codebase simple and small, some important capabilities are intentionally excluded from this template:
-
-  * Unit Testing.
-  * Security (meteor-application-template-react enables the insecure packages)
-  * Deployment
-
-Examples of the these capabilities will be provided elsewhere.
+  * Can be made using minimal kitchen facilities (at a minimum, a toaster oven).
+  * Can be made out of ingredients that are available within walking distance of UH. 
+  * Suit local taste sensibilities. 
+  * Can be filtered via dietary restrictions (gluten-free, vegan, etc).
+  * Have an estimated cost per serving. 
+  * Has an estimated number of servings per recipe. 
+  * Has an estimate of how long it takes to make.
 
 ## Installation
 
