@@ -1,6 +1,6 @@
 [Team Contract](https://docs.google.com/document/d/1hnYz5VQLM7qV9ZZo8wsZYuB6PCHSuUI5v0Pi1Q_j45Y/edit?usp=sharing)
 
-(Toaster Lovin) is a sample Meteor 2.7 application that illustrates: 
+No More Ramen is a sample Meteor 2.7 application that illustrates: 
 
   * A standard directory layout using 'imports/' as recommended in the [Meteor Guide](https://guide.meteor.com/structure.html)
   * [Bootstrap 5 React](https://react-bootstrap.github.io/) for user interface.
