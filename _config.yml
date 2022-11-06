@@ -2,7 +2,9 @@ title: No More Ramen
 description: A template for quickly starting No More Ramen.
 google_analytics:
 show_downloads: true
-theme: jekyll-theme-midnight
-
+theme: jekyll-theme-cayman
+github:
+  is_project_page: true
+  repository_url: https://github.com/no-more-ramen/no-more-ramen
 gems:
   - jekyll-mentions
