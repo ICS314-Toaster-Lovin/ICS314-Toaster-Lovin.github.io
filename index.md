@@ -198,6 +198,12 @@ After clicking on the "Edit" link associated with an item, this page displays th
 You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
 
 
+#### Vendor home page
+
+This page will list all ingredients that a vendor has listed for sale with the option to edit and add ingredients
+
+<img class="img-fluid" width=400 src="./images/vendor-homepage.png">
+
 
 #### Admin page (list all users Recipe)
 
@@ -206,6 +212,12 @@ To provide a simple example of a "super power" for Admin users, the Admin page l
 
 
 Note that non-admin users cannot get to this page, even if they type in the URL by hand.
+
+#### Individual Recipe page
+
+This page contains the full details of each recipe including a photo, ingredients list, and instructions
+
+<img class="img-fluid" width=400 src="./images/recipe-page.png">
 
 ### Collections
 
