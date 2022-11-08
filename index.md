@@ -104,12 +104,6 @@ After logging in, here is the page that allows you to add new Recipe:
 
 <img src="images/Add-Recipe-Page.png" class="img-fluid" width=400>
 
-#### Edit Recipe page
-
-After clicking on the "Edit" link associated with an item, this page displays that allows you to change and save it:
-
-
-
 #### Individual Recipe page
 
 This page contains the full details of each recipe including a photo, ingredients list, and instructions
@@ -144,7 +138,7 @@ This page will allow vendors to add ingredients:
 
 You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
 
-
+<img src="images/Admin-Home-Page.png" class="img-fluid" width=400>
 
 #### Admin page (list all users Recipe)
 
