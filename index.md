@@ -84,7 +84,7 @@ Alternatively, clicking on the Login link, then on the Sign Up menu item display
 
 <img src="images/Sign-Up-Page.png" class="img-fluid" width=400>
 
-#### Home page, Student user
+#### Student Home page
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
 
@@ -122,12 +122,6 @@ This page allows you to search for a recipe based on name, ingredients, size, et
 
 <img src="images/Search-Recipe-Page.png" class="img-fluid" width=400>
 
-#### Home page, Vendor user
-
-You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
-
-
-
 #### Vendor Home page
 
 This page will list all ingredients that a vendor has listed for sale with the option to edit and add ingredients
@@ -140,13 +134,13 @@ After you log in, you can click on a dropdown on the navbar to get to your profi
 
 <img src="images/Vendor-Profile-Page.png" class="img-fluid" width=400>
 
-#### Vendor Ingredients page
+#### Vendor Add Ingredients page
 
 This page will allow vendors to add ingredients:
 
 <img src="images/Add-Ingredients-Page.png" class="img-fluid" width=400>
 
-#### Home page, Admin user
+#### Admin Home page
 
 You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
 
