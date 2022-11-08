@@ -92,17 +92,41 @@ Once you log in (either to an existing account or by creating a new one), the na
 
 You can now add new Recipe documents, and list the recipe you have created. Note you cannot see any Recipe created by other users.
 
+#### Vendor Home page
+
+This page will list all ingredients that a vendor has listed for sale with the option to edit and add ingredients
+
+<img class="img-fluid" width=400 src="images/Vendor-Home-Page.png">
+
+#### Admin Home page
+
+You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
+
+<img src="images/Admin-Home-Page.png" class="img-fluid" width=400>
+
 #### Student Profile Page
 
 After you log in, you can click on a dropdown on the navbar to get to your profile:
 
 <img src="images/Student-Profile-Page.png" class="img-fluid" width=400>
 
+#### Vendor Profile Page
+
+After you log in, you can click on a dropdown on the navbar to get to your profile:
+
+<img src="images/Vendor-Profile-Page.png" class="img-fluid" width=400>
+
 #### Add Recipe page
 
 After logging in, here is the page that allows you to add new Recipe:
 
 <img src="images/Add-Recipe-Page.png" class="img-fluid" width=400>
+
+#### Add Ingredients page
+
+This page will allow vendors to add ingredients:
+
+<img src="images/Add-Ingredients-Page.png" class="img-fluid" width=400>
 
 #### Individual Recipe page
 
@@ -115,30 +139,6 @@ This page contains the full details of each recipe including a photo, ingredient
 This page allows you to search for a recipe based on name, ingredients, size, etc.
 
 <img src="images/Search-Recipe-Page.png" class="img-fluid" width=400>
-
-#### Vendor Home page
-
-This page will list all ingredients that a vendor has listed for sale with the option to edit and add ingredients
-
-<img class="img-fluid" width=400 src="images/Vendor-Home-Page.png">
-
-#### Vendor Profile Page
-
-After you log in, you can click on a dropdown on the navbar to get to your profile:
-
-<img src="images/Vendor-Profile-Page.png" class="img-fluid" width=400>
-
-#### Vendor Add Ingredients page
-
-This page will allow vendors to add ingredients:
-
-<img src="images/Add-Ingredients-Page.png" class="img-fluid" width=400>
-
-#### Admin Home page
-
-You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
-
-<img src="images/Admin-Home-Page.png" class="img-fluid" width=400>
 
 #### Admin page (list all users Recipe)
 
