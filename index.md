@@ -68,7 +68,7 @@ tests/           # testcafe acceptance tests.
 
 When you first visit the site, this is what should be displayed:
 
-
+<img src="images/Landing-Page.png" class="img-fluid" width=400>
 
 The next step is to use the Login menu to either Login to an existing account or register a new account.
 
@@ -76,33 +76,27 @@ The next step is to use the Login menu to either Login to an existing account or
 
 Clicking on the Login link, then on the Sign In menu item displays this page:
 
-
+<img src="images/Sign-In-Page.png" class="img-fluid" width=400>
 
 #### Register page
 
 Alternatively, clicking on the Login link, then on the Sign Up menu item displays this page:
 
+<img src="images/Sign-Up-Page.png" class="img-fluid" width=400>
 
-
-#### Landing (after Login) page, non-Admin user
+#### Home page, Student user
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
 
-
+<img src="images/User-Home-Page.png" class="img-fluid" width=400>
 
 You can now add new Recipe documents, and list the recipe you have created. Note you cannot see any Recipe created by other users.
 
-### Student Profile Page
+#### Student Profile Page
 
 After you log in, you can click on a dropdown on the navbar to get to your profile:
 
 <img src="images/Student-Profile-Page.png" class="img-fluid" width=400>
-
-### Vendor Profile Page
-
-After you log in, you can click on a dropdown on the navbar to get to your profile:
-
-<img src="images/Vendor-Profile-Page.png" class="img-fluid" width=400>
 
 #### Add Recipe page
 
@@ -124,9 +118,10 @@ After clicking on the "Edit" link associated with an item, this page displays th
 
 
 
-#### Landing (after Login), Admin user
+#### Home page, Vendor user
 
 You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
+
 
 
 #### Vendor Home page
@@ -134,6 +129,24 @@ You can define an "admin" user in the settings.json file. This user, after loggi
 This page will list all ingredients that a vendor has listed for sale with the option to edit and add ingredients
 
 <img class="img-fluid" width=400 src="images/Vendor-Home-Page.png">
+
+#### Vendor Profile Page
+
+After you log in, you can click on a dropdown on the navbar to get to your profile:
+
+<img src="images/Vendor-Profile-Page.png" class="img-fluid" width=400>
+
+#### Vendor Ingredients page
+
+This page will allow vendors to add ingredients:
+
+<img src="images/Add-Ingredients-Page.png" class="img-fluid" width=400>
+
+#### Home page, Admin user
+
+You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
+
+
 
 #### Admin page (list all users Recipe)
 
