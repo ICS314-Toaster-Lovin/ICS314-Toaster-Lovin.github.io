@@ -140,14 +140,6 @@ This page allows you to search for a recipe based on name, ingredients, size, et
 
 <img src="images/Search-Recipe-Page.png" class="img-fluid" width=400>
 
-#### Admin page (list all users Recipe)
-
-To provide a simple example of a "super power" for Admin users, the Admin page lists all of the recipes by all of the users:
-
-
-
-Note that non-admin users cannot get to this page, even if they type in the URL by hand.
-
 ### Collections
 
 The application implements a single Collection called "Recipes". Each Recipes document has the following fields: name, quantity, condition, and username.
