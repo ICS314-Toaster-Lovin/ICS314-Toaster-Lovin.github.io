@@ -104,19 +104,23 @@ After logging in, here is the page that allows you to add new Recipe:
 
 <img src="images/Add-Recipe-Page.png" class="img-fluid" width=400>
 
-#### List Recipe page
-
-After logging in, here is the page that allows you to list all the Recipe you have created:
-
-
-
-You click the "Edit" link to go to the Edit Recipe page, shown next.
-
 #### Edit Recipe page
 
 After clicking on the "Edit" link associated with an item, this page displays that allows you to change and save it:
 
 
+
+#### Individual Recipe page
+
+This page contains the full details of each recipe including a photo, ingredients list, and instructions
+
+<img class="img-fluid" width=400 src="images/Indiv-Recipe-Page.png">
+
+### Search Recipe page
+
+This page allows you to search for a recipe based on name, ingredients, size, etc.
+
+<img src="images/Search-Recipe-Page.png" class="img-fluid" width=400>
 
 #### Home page, Vendor user
 
@@ -155,18 +159,6 @@ To provide a simple example of a "super power" for Admin users, the Admin page l
 
 
 Note that non-admin users cannot get to this page, even if they type in the URL by hand.
-
-#### Individual Recipe page
-
-This page contains the full details of each recipe including a photo, ingredients list, and instructions
-
-<img class="img-fluid" width=400 src="images/Indiv-Recipe-Page.png">
-
-### Search Recipe page
-
-This page allows you to search for a recipe based on name, ingredients, size, etc.
-
-<img src="images/Search-Recipe-Page.png" class="img-fluid" width=400>
 
 ### Collections
 
