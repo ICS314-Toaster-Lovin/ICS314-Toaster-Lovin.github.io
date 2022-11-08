@@ -116,7 +116,7 @@ This page contains the full details of each recipe including a photo, ingredient
 
 <img class="img-fluid" width=400 src="images/Indiv-Recipe-Page.png">
 
-### Search Recipe page
+#### Search Recipe page
 
 This page allows you to search for a recipe based on name, ingredients, size, etc.
 
