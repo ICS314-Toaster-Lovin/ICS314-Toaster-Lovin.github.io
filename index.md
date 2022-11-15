@@ -94,7 +94,7 @@ You can now add new Recipe documents, and list the recipe you have created. Note
 
 #### Vendor Home page
 
-This page will list all ingredients that a vendor has listed for sale with the option to edit and add ingredients
+This page lists all ingredients that a vendor has listed for sale with the option to edit an existing ingredient and add new ingredients.
 
 <img class="img-fluid" width=400 src="images/Vendor-Home-Page.png">
 
@@ -130,7 +130,7 @@ This page will allow vendors to add ingredients:
 
 #### Individual Recipe page
 
-This page contains the full details of each recipe including a photo, ingredients list, and instructions
+This page contains the full details of each recipe including a photo, dietary restrictions, ingredients list, and instructions. Users can see which vendors are selling the ingredients by hovering over each ingredient in the list.
 
 <img class="img-fluid" width=400 src="images/Indiv-Recipe-Page.png">
 
