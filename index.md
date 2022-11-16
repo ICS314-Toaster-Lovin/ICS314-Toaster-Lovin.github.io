@@ -12,6 +12,16 @@ No More Ramen is a web application that will allow students to learn and share r
   * Has an estimated number of servings per recipe. 
   * Has an estimate of how long it takes to make.
 
+## Development History
+| Milestones                                                      | Description                                                                                                                                                                                                                                                        |
+|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Milestone 1](https://github.com/orgs/no-more-ramen/projects/1) | Our main goal of Milestone 1 was to create Mockups of our pages so we had a general idea of how we wanted our site to look like. We also created a landing page. The landing page is meant to help users get a general understanding of what our website is about. |
+| [Milestone 2](https://github.com/orgs/no-more-ramen/projects/2) | Our main goal of Milestone 2 was to improve the functionality and quality of our website beyond Milestone 1.                                                                                                                                                       |
+| [Milestone 3](https://github.com/orgs/no-more-ramen/projects/3) | **Final Touches:** For Milestone 3...                                                                                                                                                                                                                              |
+
+## Deployment
+Our project is deployed on [Digital Ocean](http://167.99.44.15/) for everyone to see it.
+
 ## Walkthrough
 
 The following sections describe the major features of this template.
