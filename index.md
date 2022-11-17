@@ -95,6 +95,12 @@ Alternatively, clicking on the Login link, then on the Sign Up menu item display
 
 <img src="images/Sign-Up-Page.png" class="img-fluid" width=400>
 
+#### Sign Out page
+
+After logging out, this page displays:
+
+<img src="images/Sign-Out-Page.png" class="img-fluid" width=400>
+
 #### Student Home page
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
