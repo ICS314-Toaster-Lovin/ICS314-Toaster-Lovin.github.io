@@ -143,7 +143,7 @@ After logging in, here is the page that allows you to add new Recipe:
 
 This page will allow vendors to add ingredients:
 
-<img src="images/Add-Ingredients-Page.png" class="img-fluid" width=400>
+<img src="images/Add-Ingredient.png" class="img-fluid" width=400>
 
 #### Individual Recipe page
 
