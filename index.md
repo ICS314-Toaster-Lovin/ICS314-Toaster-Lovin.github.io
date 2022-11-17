@@ -79,7 +79,7 @@ tests/           # testcafe acceptance tests.
 
 When you first visit the site, this is what should be displayed:
 
-<img src="images/Landing-Page.png" class="img-fluid" width=400>
+<img src="images/Landing.png" class="img-fluid" width=400>
 
 The next step is to use the Login menu to either Login to an existing account or register a new account.
 
