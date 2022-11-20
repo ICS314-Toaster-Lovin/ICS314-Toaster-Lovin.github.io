@@ -1,4 +1,7 @@
-[Team Contract](https://docs.google.com/document/d/1hnYz5VQLM7qV9ZZo8wsZYuB6PCHSuUI5v0Pi1Q_j45Y/edit?usp=sharing)
+## Team
+No More Ramen is designed, implemented, and maintained by a team consisting of five members: [Bradley Valiente](https://github.com/b-valiente), [Shannon Kam](https://github.com/shannonkam), [Kayla Hirano](https://github.com/khirano7), [Khanh Nguyen](https://github.com/1khanh), and [Jun Kim](https://github.com/junkim855). 
+
+All members have signed a [team contract](https://docs.google.com/document/d/1hnYz5VQLM7qV9ZZo8wsZYuB6PCHSuUI5v0Pi1Q_j45Y/edit?usp=sharing).
 
 ## Overview
 
