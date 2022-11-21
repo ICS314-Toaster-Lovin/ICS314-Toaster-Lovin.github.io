@@ -15,6 +15,32 @@ No More Ramen is a web application that will allow students to learn and share r
   * Has an estimated number of servings per recipe. 
   * Has an estimate of how long it takes to make.
 
+## Developer Guide
+
+### Installation
+
+First, [install Meteor](https://www.meteor.com/developers/install)
+
+Second, visit the [No More Ramen application github page](https://github.com/no-more-ramen/no-more-ramen), and click the "Use this template" button to create your own repository.
+
+Third, go to your newly created repository and download your new GitHub repo to your local file system. [GitHub Desktop](https://desktop.github.com/) is a great choice if you use MacOS or Windows.
+
+Fourth, cd into the app/ directory of your local copy of the repo, and install third party libraries with:
+```
+$ meteor npm install
+```
+Fifth, run the system with:
+```
+$ meteor npm run start
+```
+If all goes well it will appear at [http://localhost:3000/](http://localhost:3000/)
+
+### ESLint
+To verify that the code obeys coding standards, you can run ESLint over the code using:
+```
+meteor npm run lint
+```
+
 ## Development History
 
 | Milestones                                             | Description |
@@ -26,7 +52,7 @@ No More Ramen is a web application that will allow students to learn and share r
 ## Deployment
 Our project is deployed on [Digital Ocean](http://167.99.44.15/) for everyone to see it.
 
-## Walkthrough
+## User Guide
 
 The following sections describe the major features of this template.
 
