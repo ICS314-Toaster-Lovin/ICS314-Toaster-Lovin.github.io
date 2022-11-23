@@ -156,7 +156,7 @@ You can define an "admin" user in the settings.json file. This user, after loggi
 
 After you log in, you can click on a dropdown on the navbar to get to your profile:
 
-<img src="images/Student-Profile-Page.png" class="img-fluid" width=400>
+<img src="images/Student-Profile.png" class="img-fluid" width=400>
 
 #### Vendor Profile Page
 
