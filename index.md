@@ -84,8 +84,10 @@ client/
 
 imports/
   api/           # Define collections
-    Recipe/       # The Recipes collection definition
-    Ingredients/    # The Ingredients collection definition 
+    recipe/       # The Recipe collection definition
+    ingredient/    # The Ingredient collection definition 
+    student/    # The Student collection definition 
+    vendor/    # The Vendor collection definition 
   startup/       # Define code to run when system starts up (client-only, server-only, both)
     client/
     server/
