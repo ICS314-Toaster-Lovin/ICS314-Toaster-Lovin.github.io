@@ -110,7 +110,7 @@ tests/           # testcafe acceptance tests.
 
 When you first visit the site, this is what should be displayed:
 
-<img src="images/Landing.png" class="img-fluid" width=400>
+<img src="images/Landing.png" class="img-fluid" width=500>
 
 The next step is to use the Login menu to either Login to an existing account or register a new account.
 
@@ -118,25 +118,25 @@ The next step is to use the Login menu to either Login to an existing account or
 
 Clicking on the Login link, then on the Sign In menu item displays this page:
 
-<img src="images/Sign-In-Page.png" class="img-fluid" width=400>
+<img src="images/Sign-In-Page.png" class="img-fluid" width=600>
 
 #### Register page
 
 Alternatively, clicking on the Login link, then on the Sign Up menu item displays this page:
 
-<img src="images/Sign-Up-Page.png" class="img-fluid" width=400>
+<img src="images/Sign-Up-Page.png" class="img-fluid" width=600>
 
 #### Sign Out page
 
 After logging out, this page displays:
 
-<img src="images/Sign-Out-Page.png" class="img-fluid" width=400>
+<img src="images/Sign-Out-Page.png" class="img-fluid" width=600>
 
 #### Student Home page
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
 
-<img src="images/User-Home-Page.png" class="img-fluid" width=400>
+<img src="images/User-Home-Page.png" class="img-fluid" width=600>
 
 You can now add new Recipe documents, and list the recipe you have created. Note you cannot see any Recipe created by other users.
 
@@ -150,43 +150,43 @@ This page lists all ingredients that a vendor has listed for sale with the optio
 
 You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
 
-<img src="images/Admin-Home-Page.png" class="img-fluid" width=400>
+<img src="images/Admin-Home-Page.png" class="img-fluid" width=600>
 
 #### Student Profile Page
 
 After you log in, you can click on a dropdown on the navbar to get to your profile:
 
-<img src="images/Student-Profile.png" class="img-fluid" width=400>
+<img src="images/Student-Profile-Page.png" class="img-fluid" width=600>
 
 #### Vendor Profile Page
 
 After you log in, you can click on a dropdown on the navbar to get to your profile:
 
-<img src="images/Vendor-Profile-Page.png" class="img-fluid" width=400>
+<img src="images/Vendor-Profile-Page.png" class="img-fluid" width=600>
 
 #### Add Recipe page
 
 After logging in, here is the page that allows you to add new Recipe:
 
-<img src="images/Add-Recipe-Page.png" class="img-fluid" width=400>
+<img src="images/Add-Recipe-Page.png" class="img-fluid" width=600>
 
 #### Add Ingredients page
 
 This page will allow vendors to add ingredients:
 
-<img src="images/Add-Ingredient.png" class="img-fluid" width=400>
+<img src="images/Add-Ingredient.png" class="img-fluid" width=600>
 
 #### Individual Recipe page
 
 This page contains the full details of each recipe including a photo, dietary restrictions, ingredients list, and instructions. Users can see which vendors are selling the ingredients by hovering over each ingredient in the list.
 
-<img class="img-fluid" width=700 src="images/Indiv-Recipe-Page.png">
+<img class="img-fluid" width=600 src="images/Indiv-Recipe-Page.png">
 
 #### Search Recipe page
 
 This page allows you to search for a recipe based on name, ingredients, size, etc.
 
-<img src="images/Search-Recipe-Page.png" class="img-fluid" width=400>
+<img src="images/Search-Recipe-Page.png" class="img-fluid" width=600>
 
 ### Collections
 
