@@ -1,3 +1,5 @@
+![ci-badge](https://github.com/no-more-ramen/no-more-ramen/workflows/no-more-ramen/badge.svg)
+
 ## Team
 No More Ramen is designed, implemented, and maintained by a team consisting of five members: [Bradley Valiente](https://b-valiente.github.io/), [Shannon Kam](https://shannonkam.github.io/), [Kayla Hirano](https://khirano7.github.io/), [Khanh Nguyen](https://1khanh.github.io/), and [Jun Kim](https://junkim1519.github.io/). 
 
