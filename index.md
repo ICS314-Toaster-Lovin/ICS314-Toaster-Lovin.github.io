@@ -192,7 +192,7 @@ This page allows you to search for a recipe based on name, ingredients, size, et
 
 #### Search Ingredients page
 
-This page allows you to search for an ingredient based on name, quantity in stock, price, and vendor.
+This page allows you to search for an ingredient based on name, quantity, price, and vendor.
 
 <img src="images/Search-Ingredients-Page.png" class="img-fluid" width=600>
 
