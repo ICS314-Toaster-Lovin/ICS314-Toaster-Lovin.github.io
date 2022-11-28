@@ -190,6 +190,12 @@ This page allows you to search for a recipe based on name, ingredients, size, et
 
 <img src="images/Search-Recipe-Page.png" class="img-fluid" width=600>
 
+#### Search Ingredients page
+
+This page allows you to search for an ingredient based on name, quantity in stock, price, and vendor.
+
+<img src="images/Search-Ingredients-Page.png" class="img-fluid" width=600>
+
 ### Collections
 
 The application implements a single Collection called "Recipes". Each Recipes document has the following fields: name, quantity, condition, and username.
