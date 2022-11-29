@@ -1,11 +1,12 @@
 ![ci-badge](https://github.com/no-more-ramen/no-more-ramen/workflows/no-more-ramen/badge.svg)
 
-## Team
-No More Ramen is designed, implemented, and maintained by a team consisting of five members: [Bradley Valiente](https://b-valiente.github.io/), [Shannon Kam](https://shannonkam.github.io/), [Kayla Hirano](https://khirano7.github.io/), [Khanh Nguyen](https://1khanh.github.io/), and [Jun Kim](https://junkim1519.github.io/). 
-
-All members have signed a [team contract](https://docs.google.com/document/d/1hnYz5VQLM7qV9ZZo8wsZYuB6PCHSuUI5v0Pi1Q_j45Y/edit?usp=sharing).
-
 ## Overview
+
+### The Problem
+
+Many college students have limited cooking skills, limited time, limited access to grocery stores, and no access to creative recipes that are within these contraints. As a result, students end up spending lots of money at fast food places or through vending machines.
+
+### The Solution
 
 No More Ramen is a web application that will allow students to learn and share recipes that:
 
@@ -16,6 +17,8 @@ No More Ramen is a web application that will allow students to learn and share r
   * Have an estimated cost per serving. 
   * Has an estimated number of servings per recipe. 
   * Has an estimate of how long it takes to make.
+
+The goal of this site is to help improve the nutritional content and variety of foods consumed by students.
 
 ## Developer Guide
 
@@ -196,35 +199,7 @@ This page allows you to search for an ingredient based on name, quantity, price,
 
 <img src="images/Search-Ingredients-Page.png" class="img-fluid" width=600>
 
-### Collections
+## Team
+No More Ramen is designed, implemented, and maintained by a team consisting of five members: [Bradley Valiente](https://b-valiente.github.io/), [Shannon Kam](https://shannonkam.github.io/), [Kayla Hirano](https://khirano7.github.io/), [Khanh Nguyen](https://1khanh.github.io/), and [Jun Kim](https://junkim1519.github.io/).
 
-The application implements a single Collection called "Recipes". Each Recipes document has the following fields: name, quantity, condition, and username.
-
-The Recipes collection is defined in [imports/api/Recipe/Recipe.js](https://github.com/ics-software-engineering/meteor-application-template-react/blob/main/app/imports/api/Recipe/Recipe.js).
-
-The Recipes collection is initialized in [imports/startup/server/Mongo.js](https://github.com/ics-software-engineering/meteor-application-template-react/blob/main/app/imports/startup/server/Mongo.js).
-
-### Routing
-
-For display and navigation among its four pages, the application uses [React Router](https://reacttraining.com/react-router/).
-
-Routing is defined in [imports/ui/layouts/App.jsx](https://github.com/ics-software-engineering/meteor-application-template-react/blob/main/app/imports/ui/layouts/App.jsx).
-
-
-### Authentication
-
-For authentication, the application uses the Meteor accounts package.
-
-When the application is run for the first time, a settings file (such as [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template-react/blob/main/config/settings.development.json)) should be passed to Meteor. That will lead to a default account being created through the code in [imports/startup/server/accounts.js](https://github.com/ics-software-engineering/meteor-application-template-react/blob/main/app/imports/startup/server/accounts.js).
-
-The application allows users to register and create new accounts at any time.
-
-### Authorization
-
-Only logged in users can manipulate Recipe documents (but any registered user can manipulate any Recipe document, even if they weren't the user that created it.)
-
-### Configuration
-
-The [config](https://github.com/ics-software-engineering/meteor-application-template-react/blob/main/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template-react/blob/main/config/settings.development.json).
-
-The [.gitignore](https://github.com/ics-software-engineering/meteor-application-template-react/blob/main/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
+All members have signed a [team contract](https://docs.google.com/document/d/1hnYz5VQLM7qV9ZZo8wsZYuB6PCHSuUI5v0Pi1Q_j45Y/edit?usp=sharing).
