@@ -157,13 +157,20 @@ You can define an "admin" user in the settings.json file. This user, after loggi
 
 <img src="images/Admin-Home-Page.png" class="img-fluid" width=600>
 
-#### Student Profile Page
+#### Newest Recipes and Newest Ingredients pages
+
+Admins have the ability to view all of the added ingredients and recipes, sorted by the added date. They are also able to remove specific items here: 
+
+<img src="images/Newest-Recipe-Page.png" class="img-fluid" width=600>
+<img src="images/Newest-Ingredient-Page.png" class="img-fluid" width=600>
+
+#### Student Profile page
 
 After you log in, you can click on a dropdown on the navbar to get to your profile:
 
 <img src="images/Student-Profile-Page.png" class="img-fluid" width=600>
 
-#### Vendor Profile Page
+#### Vendor Profile page
 
 After you log in, you can click on a dropdown on the navbar to get to your profile:
 
