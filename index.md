@@ -155,7 +155,7 @@ This page lists all ingredients that a vendor has listed for sale with the optio
 
 You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
 
-<img src="images/Admin-Home-Page.png" class="img-fluid" width=600>
+<img src="images/Adminhome-Page.png" class="img-fluid" width=600>
 
 #### Newest Recipes and Newest Ingredients pages
 
