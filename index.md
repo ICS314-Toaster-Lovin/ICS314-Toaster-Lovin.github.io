@@ -55,7 +55,7 @@ meteor npm run lint
 | [M3](https://github.com/orgs/no-more-ramen/projects/3) |For Milestone 3...|
 
 ## Deployment
-Our project is deployed on [Digital Ocean](http://167.99.44.15/) for everyone to see it.
+Our project is deployed on [Digital Ocean](https://nomoreramen.xyz/) for everyone to see it.
 
 ## User Guide
 
