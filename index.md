@@ -61,56 +61,6 @@ Our project is deployed on [Digital Ocean](https://nomoreramen.xyz/) for everyon
 
 The following sections describe the major features of this template.
 
-### Directory structure
-
-The top-level directory structure is:
-
-```
-.github     # holds the GitHub Continuous Integration action and Issue template.
-app/        # holds the Meteor application sources
-config/     # holds configuration files, such as settings.development.json
-doc/        # holds developer documentation, user guides, etc.
-.gitignore  # don't commit IntelliJ project files, node_modules, and settings.production.json
-```
-
-This structure separates documentation files (such as screenshots) and configuration files (such as the settings files) from the actual Meteor application.
-
-The app/ directory has this structure:
-
-```
-.deploy/
-  .gitignore     # don't commit mup.js or settings.json
-  mup.sample.js  # sample mup.js file used for deploying the application
-  settings.sample.json # sample settings file
-  
-client/
-  main.html      # The boilerplate HTML with a "root" div to be manipulated by React.
-  main.js        # import startup files.
-
-imports/
-  api/           # Define collections
-    recipe/       # The Recipe collection definition
-    ingredient/    # The Ingredient collection definition 
-    student/    # The Student collection definition 
-    vendor/    # The Vendor collection definition 
-  startup/       # Define code to run when system starts up (client-only, server-only, both)
-    client/
-    server/
-  ui/
-    components/  # Contains page elements, some of which could appear on multiple pages.
-    layouts/     # Contains top-level layout (<App> component).
-    pages/       # Contains components for each page.
-
-node_modules/    # managed by npm
-
-public/          # static assets (like images) can go here.
-
-server/
-   main.js       # import the server-side js files.
-   
-tests/           # testcafe acceptance tests.
-```
-
 #### Landing page
 
 When you first visit the site, this is what should be displayed:
@@ -141,7 +91,7 @@ After logging out, this page displays:
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
 
-<img src="images/User-Home-Page.png" class="img-fluid" width=600>
+<img src="images/Student-Home-Page.png" class="img-fluid" width=600>
 
 You can now add new Recipe documents, and list the recipe you have created. Note you cannot see any Recipe created by other users.
 
@@ -153,16 +103,11 @@ This page lists all ingredients that a vendor has listed for sale with the optio
 
 #### Admin Home page
 
-You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
+You can define an "admin" user in the settings.json file. This user, after logging in, gets special entries in the navbar:
 
-<img src="images/Adminhome-Page.png" class="img-fluid" width=600>
+<img src="images/Admin-Home-Page.png" class="img-fluid" width=600>
 
-#### Newest Recipes and Newest Ingredients pages
-
-Admins have the ability to view all of the added ingredients and recipes, sorted by the added date. They are also able to remove specific items here: 
-
-<img src="images/Newest-Recipe-Page.png" class="img-fluid" width=600>
-<img src="images/Newest-Ingredient-Page.png" class="img-fluid" width=600>
+Admins are able to view and edit all existing users. Admins also have the ability to view all of the added ingredients and recipes, sorted by the added date. They are able to remove or edit specific items.
 
 #### Student Profile page
 
@@ -186,13 +131,19 @@ After logging in, here is the page that allows you to add new Recipe:
 
 This page will allow vendors to add ingredients:
 
-<img src="images/Add-Ingredient.png" class="img-fluid" width=600>
+<img src="images/Add-Ingredients-Page.png" class="img-fluid" width=600>
 
 #### Individual Recipe page
 
-This page contains the full details of each recipe including a photo, dietary restrictions, ingredients list, and instructions. Users can see which vendors are selling the ingredients by hovering over each ingredient in the list.
+This page contains the full details of each recipe including a photo, dietary restrictions, ingredients list, and instructions. Users can see which vendors are selling the ingredients by hovering over each ingredient in the list. Users can favorite a recipe by clicking on the star icon.
 
 <img class="img-fluid" width=600 src="images/Indiv-Recipe-Page.png">
+
+#### Favorites page
+
+This page shows all the recipes that a user favorites.
+
+<img class="img-fluid" width=600 src="images/Student-Favorites.png">
 
 #### Search Recipe page
 
@@ -205,6 +156,36 @@ This page allows you to search for a recipe based on name, ingredients, size, et
 This page allows you to search for an ingredient based on name, quantity, price, and vendor.
 
 <img src="images/Search-Ingredients-Page.png" class="img-fluid" width=600>
+
+## Community Feedback
+
+### David L.
+
+* UI is easy to use. Easy navigation through links.
+* No bugs were encountered.
+* As a vendor, I would have liked the option to search through recipes and ingredients to see what was trending.
+* Overall design was professional and easy to use.
+
+### Simplicio J.
+
+* Very simplistic, almost everything was easy to read. Intuitive and easy-to-learn interface.
+* No bugs!
+* The space above the sign up button and text could be condensed a little bit, but for the most part everything was great.
+* Love this website, honestly this would be something that I wouldn't mind using on a day-to-day basis when organizing my recipes. Excellent job!
+
+### Jeraldine M.
+
+* I like the search recipes tab, and that we can see which vendors sells items.
+* No bugs.
+* Would love to see how you will implement the google maps API next time and have clearer pictures used.
+* It's a nice simple app.
+
+### Branden T.
+
+* Layout is quite clean, compared to other websites I have seen. The search filters are a great feature and seem to work well. The "Add Recipe" is definitely a great idea which actual users would find convenient.
+* The text on the home page may be too small for some users to read. The images themselves are not of the highest quality, but they get the point across.
+* Being able to order the recipes by alphabetical order, serving size, and estimated time may be a good feature to implement in the future (e.g. if someone wanted to see the recipes in order from most servings to least). Additionally, perhaps a "Cancel" button for vendors when adding/editing ingredients.
+* Overall, great functionality and practicality. Navigation is pretty straightforward and the page layouts are nice and simple. I could see this website being of great use if it were to be implemented for real students to use, and it could even be expanded for use across the country, and users could include their institution's location in order to account for only nearby vendors.
 
 ## Team
 No More Ramen is designed, implemented, and maintained by a team consisting of five members: [Bradley Valiente](https://b-valiente.github.io/), [Shannon Kam](https://shannonkam.github.io/), [Kayla Hirano](https://khirano7.github.io/), [Khanh Nguyen](https://1khanh.github.io/), and [Jun Kim](https://junkim1519.github.io/).
