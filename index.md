@@ -187,6 +187,13 @@ This page allows you to search for an ingredient based on name, quantity, price,
 * Being able to order the recipes by alphabetical order, serving size, and estimated time may be a good feature to implement in the future (e.g. if someone wanted to see the recipes in order from most servings to least). Additionally, perhaps a "Cancel" button for vendors when adding/editing ingredients.
 * Overall, great functionality and practicality. Navigation is pretty straightforward and the page layouts are nice and simple. I could see this website being of great use if it were to be implemented for real students to use, and it could even be expanded for use across the country, and users could include their institution's location in order to account for only nearby vendors.
 
+### Sky K. 
+
+* Easy to navigate, very user friendly, very informative in regards to the different dietary restrictions.
+* No bugs.
+* I would've liked to see a larger variety of cultural food choices.
+* Overall great site for the everyday user, very straight forward and helpful especially towards the average college kid on a budget.
+
 ## Team
 No More Ramen is designed, implemented, and maintained by a team consisting of five members: [Bradley Valiente](https://b-valiente.github.io/), [Shannon Kam](https://shannonkam.github.io/), [Kayla Hirano](https://khirano7.github.io/), [Khanh Nguyen](https://1khanh.github.io/), and [Jun Kim](https://junkim1519.github.io/).
 
