@@ -65,7 +65,7 @@ The following sections describe the major features of this template.
 
 When you first visit the site, this is what should be displayed:
 
-<img src="images/Landing.png" class="img-fluid" width=500>
+<img src="images/Landing.png" class="img-fluid" width=600>
 
 The next step is to use the Login menu to either Login to an existing account or register a new account.
 
@@ -99,7 +99,7 @@ You can now add new Recipe documents, and list the recipe you have created. Note
 
 This page lists all ingredients that a vendor has listed for sale with the option to edit an existing ingredient and add new ingredients.
 
-<img class="img-fluid" width=700 src="images/Vendor-Home-Page.png">
+<img class="img-fluid" width=600 src="images/Vendor-Home-Page.png">
 
 #### Admin Home page
 
